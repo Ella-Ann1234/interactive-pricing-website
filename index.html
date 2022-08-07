@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f74ad5aa23.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>waysann slider project</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="bkgClr"></div>
+    <div class="container">
+     
+      <div class="header">
+        <div class="logo"></div>
+        <h1>Simple, traffic-based pricing</h1>
+        
+        <p>sign-up for our 30 day trail. no credits card required</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <p>100k PAGEVIEWS</p>
+          <p id="rate"><span class="rate-price">$16.00 </span>/month</p>
+          <div class="slide-container">
+            <input type="range" max="32" min="0" class="slider" id="my-range">
+          </div>
+        </div>
+        
+        <div class="billing">
+          <p>Monthly Billing</p>
+          <div class="switch">
+            <input type="checkbox" name="checkbox" class="switch-box">
+          </div>
+          <p>Yearly Billing</p>
+          <p id="billing-price">-25% <span>Discount</span></p>
+        </div>
+
+        <div class="about">
+          
+          <ul class="enjoy">
+            <li>unlimited website</li>
+            <li> 100% data ownership</li>
+            <li>Email reports</li>
+          </ul>
+
+          <button type="submit" class="accept-btn">Start my trail</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
